@@ -1,0 +1,15 @@
+[project]
+name = "payments"
+version = "0.1.0"
+description = "API representing a third-party payments data source."
+requires-python = ">=3.12"
+dependencies = [
+    "faker>=40.5.1",
+    "fastapi[standard]>=0.134.0",
+    "psycopg[binary]>=3.3.3",
+    "sqlmodel>=0.0.37",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
