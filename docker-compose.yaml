@@ -18,7 +18,7 @@ services:
 
   payments:
     build:
-      context: .
+      context: ./sources/api/payments
     environment:
       DATABASE_URL: postgresql+psycopg://app:app@postgres:5432/payments
       TZ: UTC
